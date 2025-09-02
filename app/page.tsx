@@ -129,37 +129,6 @@ const HOLIDAYS_2025 = [
   },
 ]
 
-const TEAM_MEMBERS = [
-  { name: "JR", avatar: "/professional-man.png", initials: "JR" },
-  { name: "Felipe D.", avatar: "/feliped-Redondo.png", initials: "FD" },
-  { name: "João Gabriel", avatar: "/Gabs-redondo.png", initials: "JG" },
-  { name: "Vinícius F.", avatar: "/vini-redondo.jpg", initials: "VF" },
-  { name: "José Renato", avatar: "/Renato-redondo.png", initials: "JR" },
-  { name: "Guilherme V.", avatar: "/Gui-redondo.png", initials: "GV" },
-  { name: "Ana Silva", avatar: "/professional-woman-diverse.png", initials: "AS" },
-]
-
-const BRANDS = [
-  { name: "Coca-Cola", avatar: "/coca-cola-logo.png" },
-  { name: "Magazine Luiza", avatar: "/magazine-luiza-logo.png" },
-  { name: "Mercado Livre", avatar: "/mercado-livre-logo.png" },
-  { name: "Nike", avatar: "/nike-logo.png" },
-  { name: "Adidas", avatar: "/adidas-logo.png" },
-  { name: "Skol", avatar: "/skol-logo.png" },
-  { name: "Brahma", avatar: "/brahma-logo.png" },
-  { name: "Nestlé", avatar: "/nestle-logo.png" },
-  { name: "O Boticário", avatar: "/boticario-logo.png" },
-]
-
-const INFLUENCERS = [
-  { name: "Kerbitos", avatar: "/kerbitos-profile.png" },
-  { name: "Filipe Leme", avatar: "/filipe-leme-profile.png" },
-  { name: "Boteco F1", avatar: "/boteco-f1-profile.png" },
-  { name: "Felipe Neto", avatar: "/felipe-neto-profile.png" },
-  { name: "Whindersson Nunes", avatar: "/whindersson-profile.png" },
-  { name: "Carlinhos Maia", avatar: "/carlinhos-maia-profile.png" },
-  { name: "Padre Fábio de Melo", avatar: "/padre-fabio-profile.png" },
-]
 
 const EVENT_COLORS = [
   { name: "Azul", value: "bg-blue-500" },
