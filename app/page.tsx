@@ -25,6 +25,7 @@ import {
   Trash2,
   Megaphone,
   ArrowLeft,
+  Save,
 } from "lucide-react"
 import { CardContent, CardHeader } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
@@ -120,7 +121,6 @@ const HOLIDAYS_2025 = [
   },
 ]
 
-
 const EVENT_COLORS = [
   { name: "Azul", value: "bg-blue-500" },
   { name: "Verde", value: "bg-green-500" },
@@ -192,8 +192,8 @@ const getInitialMonthsData = (year: number): MonthData[] => {
           : year === currentYear && 1 === currentMonth
             ? "current"
             : "upcoming",
-      principal: { name: "Felipe D.", role: "principal", avatar: "/professional-man-glasses.png", initials: "FD" },
-      publicidade: { name: "Felipe D.", role: "publicidade", avatar: "/professional-man-glasses.png", initials: "FD" },
+      principal: { name: "Felipe D.", role: "principal", avatar: "/feliped-Redondo.png", initials: "FD" },
+      publicidade: { name: "Felipe D.", role: "publicidade", avatar: "/feliped-Redondo.png", initials: "FD" },
       events: [],
     },
     {
@@ -204,8 +204,8 @@ const getInitialMonthsData = (year: number): MonthData[] => {
           : year === currentYear && 2 === currentMonth
             ? "current"
             : "upcoming",
-      principal: { name: "João Gabriel", role: "principal", avatar: "/professional-man-beard.png", initials: "JG" },
-      publicidade: { name: "João Gabriel", role: "publicidade", avatar: "/professional-man-beard.png", initials: "JG" },
+      principal: { name: "João Gabriel", role: "principal", avatar: "/Gabs-redondo.png", initials: "JG" },
+      publicidade: { name: "João Gabriel", role: "publicidade", avatar: "/Gabs-redondo.png", initials: "JG" },
       events: [],
     },
     {
@@ -216,8 +216,8 @@ const getInitialMonthsData = (year: number): MonthData[] => {
           : year === currentYear && 3 === currentMonth
             ? "current"
             : "upcoming",
-      principal: { name: "Vinícius F.", role: "principal", avatar: "/professional-man-young.png", initials: "VF" },
-      publicidade: { name: "Vinícius F.", role: "publicidade", avatar: "/professional-man-young.png", initials: "VF" },
+      principal: { name: "Vinícius F.", role: "principal", avatar: "/vini-redondo.jpg", initials: "VF" },
+      publicidade: { name: "Vinícius F.", role: "publicidade", avatar: "/vini-redondo.jpg", initials: "VF" },
       events: [],
     },
     {
@@ -228,8 +228,8 @@ const getInitialMonthsData = (year: number): MonthData[] => {
           : year === currentYear && 4 === currentMonth
             ? "current"
             : "upcoming",
-      principal: { name: "José Renato", role: "principal", avatar: "/professional-man-mature.png", initials: "JR" },
-      publicidade: { name: "José Renato", role: "publicidade", avatar: "/professional-man-mature.png", initials: "JR" },
+      principal: { name: "José Renato", role: "principal", avatar: "/Renato-redondo.png", initials: "JR" },
+      publicidade: { name: "José Renato", role: "publicidade", avatar: "/Renato-redondo.png", initials: "JR" },
       events: [],
     },
     {
@@ -240,8 +240,8 @@ const getInitialMonthsData = (year: number): MonthData[] => {
           : year === currentYear && 5 === currentMonth
             ? "current"
             : "upcoming",
-      principal: { name: "Guilherme V.", role: "principal", avatar: "/professional-man-casual.png", initials: "GV" },
-      publicidade: { name: "Vinícius F.", role: "publicidade", avatar: "/professional-man-young.png", initials: "VF" },
+      principal: { name: "Guilherme V.", role: "principal", avatar: "/Gui-redondo.png", initials: "GV" },
+      publicidade: { name: "Vinícius F.", role: "publicidade", avatar: "/vini-redondo.jpg", initials: "VF" },
       events: [],
     },
     {
@@ -252,8 +252,8 @@ const getInitialMonthsData = (year: number): MonthData[] => {
           : year === currentYear && 6 === currentMonth
             ? "current"
             : "upcoming",
-      principal: { name: "João Gabriel", role: "principal", avatar: "/professional-man-beard.png", initials: "JG" },
-      publicidade: { name: "José Renato", role: "publicidade", avatar: "/professional-man-mature.png", initials: "JR" },
+      principal: { name: "João Gabriel", role: "principal", avatar: "/Gabs-redondo.png", initials: "JG" },
+      publicidade: { name: "José Renato", role: "publicidade", avatar: "/Renato-redondo.png", initials: "JR" },
       events: [],
     },
     {
@@ -264,8 +264,8 @@ const getInitialMonthsData = (year: number): MonthData[] => {
           : year === currentYear && 7 === currentMonth
             ? "current"
             : "upcoming",
-      principal: { name: "Vinícius F.", role: "principal", avatar: "/professional-man-young.png", initials: "VF" },
-      publicidade: { name: "Felipe D.", role: "publicidade", avatar: "/professional-man-glasses.png", initials: "FD" },
+      principal: { name: "Vinícius F.", role: "principal", avatar: "/vini-redondo.jpg", initials: "VF" },
+      publicidade: { name: "Felipe D.", role: "publicidade", avatar: "/feliped-Redondo.png", initials: "FD" },
       events: [],
     },
     {
@@ -276,8 +276,8 @@ const getInitialMonthsData = (year: number): MonthData[] => {
           : year === currentYear && 8 === currentMonth
             ? "current"
             : "upcoming",
-      principal: { name: "José Renato", role: "principal", avatar: "/professional-man-mature.png", initials: "JR" },
-      publicidade: { name: "Vinícius F.", role: "publicidade", avatar: "/professional-man-young.png", initials: "VF" },
+      principal: { name: "José Renato", role: "principal", avatar: "/Renato-redondo.png", initials: "JR" },
+      publicidade: { name: "Vinícius F.", role: "publicidade", avatar: "/vini-redondo.jpg", initials: "VF" },
       events: [],
     },
     {
@@ -288,8 +288,8 @@ const getInitialMonthsData = (year: number): MonthData[] => {
           : year === currentYear && 9 === currentMonth
             ? "current"
             : "upcoming",
-      principal: { name: "Guilherme V.", role: "principal", avatar: "/professional-man-casual.png", initials: "GV" },
-      publicidade: { name: "José Renato", role: "publicidade", avatar: "/professional-man-mature.png", initials: "JR" },
+      principal: { name: "Guilherme V.", role: "principal", avatar: "/Gui-redondo.png", initials: "GV" },
+      publicidade: { name: "José Renato", role: "publicidade", avatar: "/Renato-redondo.png", initials: "JR" },
       events: [],
     },
     {
@@ -300,11 +300,11 @@ const getInitialMonthsData = (year: number): MonthData[] => {
           : year === currentYear && 10 === currentMonth
             ? "current"
             : "upcoming",
-      principal: { name: "João Gabriel", role: "principal", avatar: "/professional-man-beard.png", initials: "JG" },
+      principal: { name: "João Gabriel", role: "principal", avatar: "/Gabs-redondo.png", initials: "JG" },
       publicidade: {
         name: "Guilherme V.",
         role: "publicidade",
-        avatar: "/professional-man-casual.png",
+        avatar: "/Gui-redondo.png",
         initials: "GV",
       },
       events: [],
@@ -317,8 +317,8 @@ const getInitialMonthsData = (year: number): MonthData[] => {
           : year === currentYear && 11 === currentMonth
             ? "current"
             : "upcoming",
-      principal: { name: "Vinícius F.", role: "principal", avatar: "/professional-man-young.png", initials: "VF" },
-      publicidade: { name: "João Gabriel", role: "publicidade", avatar: "/professional-man-beard.png", initials: "JG" },
+      principal: { name: "Vinícius F.", role: "principal", avatar: "/vini-redondo.jpg", initials: "VF" },
+      publicidade: { name: "João Gabriel", role: "publicidade", avatar: "/Gabs-redondo.png", initials: "JG" },
       events: [],
     },
   ]
@@ -408,8 +408,8 @@ export default function TeamCalendar() {
   const [showAddEvent, setShowAddEvent] = useState(false)
   const [showDayDetails, setShowDayDetails] = useState(false)
   const [showEditEvent, setShowEditEvent] = useState(false)
-  const [showConfirmEdit, setShowConfirmEdit] = useState(false)
-  const [showConfirmDelete, setShowConfirmDelete] = useState(false)
+  // const [showConfirmEdit, setShowConfirmEdit] = useState(false)
+  // const [showConfirmDelete, setShowConfirmDelete] = useState(false)
   const [deletingEvent, setDeletingEvent] = useState<Event | null>(null)
   const [editingEvent, setEditingEvent] = useState<Event | null>(null)
   const [searchTerm, setSearchTerm] = useState("")
@@ -518,47 +518,50 @@ export default function TeamCalendar() {
     setShowEditEvent(true)
   }
 
-  const handleSaveEdit = () => {
-    setShowEditEvent(false)
-    setShowConfirmEdit(true)
-  }
+  // const handleSaveEdit = () => {
+  //   setShowEditEvent(false)
+  //   setShowConfirmEdit(true)
+  // }
 
-  const handleConfirmEdit = () => {
-    if (!editingEvent || selectedMonth === null) return
+  // const handleConfirmEdit = () => {
+  //   if (!editingEvent || selectedMonth === null) return
 
-    const updatedMonthsData = [...monthsData]
-    const eventIndex = updatedMonthsData[selectedMonth].events.findIndex((e) => e.id === editingEvent.id)
+  //   const updatedMonthsData = [...monthsData]
+  //   const eventIndex = updatedMonthsData[selectedMonth].events.findIndex((e) => e.id === editingEvent.id)
 
-    if (eventIndex !== -1) {
-      updatedMonthsData[selectedMonth].events[eventIndex] = {
-        ...editingEvent,
-        ...newEvent,
-      }
-      setMonthsData(updatedMonthsData)
-    }
+  //   if (eventIndex !== -1) {
+  //     updatedMonthsData[selectedMonth].events[eventIndex] = {
+  //       ...editingEvent,
+  //       ...newEvent,
+  //     }
+  //     setMonthsData(updatedMonthsData)
+  //   }
 
-    setShowConfirmEdit(false)
-    setEditingEvent(null)
-    setNewEvent({ type: "reuniao", priority: "normal", repeats: false, color: "bg-blue-500" })
-  }
+  //   setShowConfirmEdit(false)
+  //   setEditingEvent(null)
+  //   setNewEvent({ type: "reuniao", priority: "normal", repeats: false, color: "bg-blue-500" })
+  // }
 
   const handleDeleteEvent = (event: Event) => {
-    setDeletingEvent(event)
-    setShowConfirmDelete(true)
-  }
-
-  const handleConfirmDelete = () => {
-    if (!deletingEvent || selectedMonth === null) return
+    if (selectedMonth === null) return
 
     const updatedMonthsData = [...monthsData]
-    updatedMonthsData[selectedMonth].events = updatedMonthsData[selectedMonth].events.filter(
-      (e) => e.id !== deletingEvent.id,
-    )
+    updatedMonthsData[selectedMonth].events = updatedMonthsData[selectedMonth].events.filter((e) => e.id !== event.id)
     setMonthsData(updatedMonthsData)
-
-    setShowConfirmDelete(false)
-    setDeletingEvent(null)
   }
+
+  // const handleConfirmDelete = () => {
+  //   if (!deletingEvent || selectedMonth === null) return
+
+  //   const updatedMonthsData = [...monthsData]
+  //   updatedMonthsData[selectedMonth].events = updatedMonthsData[selectedMonth].events.filter(
+  //     (e) => e.id !== deletingEvent.id,
+  //   )
+  //   setMonthsData(updatedMonthsData)
+
+  //   setShowConfirmDelete(false)
+  //   setDeletingEvent(null)
+  // }
 
   const getEventsForDay = (day: number) => {
     if (selectedMonth === null) return []
@@ -1388,6 +1391,300 @@ export default function TeamCalendar() {
                 />
               </div>
               {/* Other fields */}
+              <div className="space-y-2">
+                <Label htmlFor="event-type">Tipo</Label>
+                <Select
+                  value={newEvent.type}
+                  onValueChange={(value) => setNewEvent({ ...newEvent, type: value as Event["type"] })}
+                >
+                  <SelectTrigger>
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="feriado">Feriado</SelectItem>
+                    <SelectItem value="reuniao">Reunião</SelectItem>
+                    <SelectItem value="publicidade">Publicidade</SelectItem>
+                    <SelectItem value="aprovacao">Aprovação</SelectItem>
+                    <SelectItem value="especial">Dia Especial</SelectItem>
+                    <SelectItem value="evento-presencial">Evento Presencial</SelectItem>
+                    <SelectItem value="evento-online">Evento Online</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              {newEvent.type === "reuniao" && (
+                <div className="space-y-2">
+                  <Label htmlFor="event-subtype">Tipo de Reunião</Label>
+                  <Select
+                    value={newEvent.subtype}
+                    onValueChange={(value) => setNewEvent({ ...newEvent, subtype: value as Event["subtype"] })}
+                  >
+                    <SelectTrigger>
+                      <SelectValue placeholder="Selecione o tipo" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="reuniao-equipe">Reunião da Equipe</SelectItem>
+                      <SelectItem value="reuniao-influencer">Reunião com Influencer</SelectItem>
+                      <SelectItem value="reuniao-marca">Reunião com Marca</SelectItem>
+                      <SelectItem value="reuniao-estrategica">Reunião Estratégica</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
+              )}
+
+              {(newEvent.type === "evento-presencial" || newEvent.type === "evento-online") && (
+                <div className="space-y-2">
+                  <Label htmlFor="event-location">
+                    {newEvent.type === "evento-presencial" ? "Local" : "Link/Plataforma"}
+                  </Label>
+                  <Input
+                    id="event-location"
+                    value={newEvent.location || ""}
+                    onChange={(e) => setNewEvent({ ...newEvent, location: e.target.value })}
+                    placeholder={newEvent.type === "evento-presencial" ? "Ex: Centro de Convenções" : "Ex: Zoom, Teams"}
+                  />
+                </div>
+              )}
+
+              <div className="space-y-2">
+                <Label htmlFor="event-date">Data</Label>
+                {/* Updated date formatting in Popover to use custom function */}
+                <Popover>
+                  <PopoverTrigger asChild>
+                    <Button variant="outline" className="w-full justify-start text-left font-normal bg-transparent">
+                      <CalendarIcon className="mr-2 h-4 w-4" />
+                      {selectedDate ? formatDate(selectedDate) : "Selecionar data"}
+                    </Button>
+                  </PopoverTrigger>
+                  <PopoverContent className="w-auto p-0">
+                    <Calendar
+                      mode="single"
+                      selected={selectedDate}
+                      onSelect={(date) => {
+                        setSelectedDate(date)
+                        if (date) {
+                          setNewEvent({ ...newEvent, date: String(date.getDate()).padStart(2, "0") })
+                        }
+                      }}
+                      initialFocus
+                    />
+                  </PopoverContent>
+                </Popover>
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="event-time">Horário</Label>
+                <Input
+                  id="event-time"
+                  type="time"
+                  value={newEvent.time || ""}
+                  onChange={(e) => setNewEvent({ ...newEvent, time: e.target.value })}
+                />
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="event-priority">Prioridade</Label>
+                <Select
+                  value={newEvent.priority}
+                  onValueChange={(value) => setNewEvent({ ...newEvent, priority: value as Event["priority"] })}
+                >
+                  <SelectTrigger>
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="normal">Normal</SelectItem>
+                    <SelectItem value="atencao">Atenção</SelectItem>
+                    <SelectItem value="urgente">Urgente</SelectItem>
+                    <SelectItem value="critico">Crítico</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="event-color">Cor do Evento</Label>
+                <Select value={newEvent.color} onValueChange={(value) => setNewEvent({ ...newEvent, color: value })}>
+                  <SelectTrigger>
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {EVENT_COLORS.map((color) => (
+                      <SelectItem key={color.value} value={color.value}>
+                        <div className="flex items-center gap-2">
+                          <div className={`w-4 h-4 rounded-full ${color.value}`} />
+                          {color.name}
+                        </div>
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="event-brands">Marcas Envolvidas</Label>
+                <Input
+                  id="event-brands"
+                  value={newEvent.brands?.join(", ") || ""}
+                  onChange={(e) => setNewEvent({ ...newEvent, brands: e.target.value.split(", ").filter(Boolean) })}
+                  placeholder="Ex: Nike, Adidas"
+                />
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="event-influencers">Influenciadores</Label>
+                <Input
+                  id="event-influencers"
+                  value={newEvent.influencers?.join(", ") || ""}
+                  onChange={(e) =>
+                    setNewEvent({ ...newEvent, influencers: e.target.value.split(", ").filter(Boolean) })
+                  }
+                  placeholder="Ex: @influencer1, @influencer2"
+                />
+              </div>
+
+              {newEvent.type === "reuniao" && (
+                <div className="space-y-2">
+                  <Label htmlFor="event-participants">Participantes</Label>
+                  <Input
+                    id="event-participants"
+                    value={newEvent.participants?.join(", ") || ""}
+                    onChange={(e) =>
+                      setNewEvent({ ...newEvent, participants: e.target.value.split(", ").filter(Boolean) })
+                    }
+                    placeholder="Ex: João, Maria, Pedro"
+                  />
+                </div>
+              )}
+
+              <div className="col-span-2 space-y-2">
+                <Label htmlFor="event-description">Descrição</Label>
+                <Textarea
+                  id="event-description"
+                  value={newEvent.description || ""}
+                  onChange={(e) => setNewEvent({ ...newEvent, description: e.target.value })}
+                  placeholder="Detalhes do evento..."
+                />
+              </div>
+
+              <div className="col-span-2 space-y-4">
+                <div className="flex items-center space-x-2">
+                  <Checkbox
+                    id="event-repeats"
+                    checked={newEvent.repeats || false}
+                    onCheckedChange={(checked) => setNewEvent({ ...newEvent, repeats: checked as boolean })}
+                  />
+                  <Label htmlFor="event-repeats">Evento se repete</Label>
+                </div>
+
+                {newEvent.repeats && (
+                  <div className="space-y-2">
+                    <Label htmlFor="repeat-type">Frequência de Repetição</Label>
+                    <Select
+                      value={newEvent.repeatType}
+                      onValueChange={(value) => setNewEvent({ ...newEvent, repeatType: value as Event["repeatType"] })}
+                    >
+                      <SelectTrigger>
+                        <SelectValue placeholder="Selecione a frequência" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="diario">Diário</SelectItem>
+                        <SelectItem value="semanal">Semanal</SelectItem>
+                        <SelectItem value="mensal">Mensal</SelectItem>
+                        <SelectItem value="anual">Anual</SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
+                )}
+              </div>
+            </div>
+            <div className="flex justify-end gap-2 mt-4">
+              <Button variant="outline" onClick={() => setShowEditEvent(false)}>
+                Cancelar
+              </Button>
+              <Button
+                onClick={() => {
+                  if (!editingEvent || selectedMonth === null) return
+
+                  const updatedMonthsData = [...monthsData]
+                  const eventIndex = updatedMonthsData[selectedMonth].events.findIndex((e) => e.id === editingEvent.id)
+
+                  if (eventIndex !== -1) {
+                    updatedMonthsData[selectedMonth].events[eventIndex] = {
+                      ...editingEvent,
+                      ...newEvent,
+                    }
+                    setMonthsData(updatedMonthsData)
+                  }
+
+                  setShowEditEvent(false)
+                  setEditingEvent(null)
+                  setNewEvent({ type: "reuniao", priority: "normal", repeats: false, color: "bg-blue-500" })
+                }}
+                className="gap-2"
+              >
+                <Save className="h-4 w-4" />
+                Salvar Alterações
+              </Button>
+            </div>
+          </DialogContent>
+        </Dialog>
+
+        {/* <Dialog open={showConfirmEdit} onOpenChange={setShowConfirmEdit}>
+          <DialogContent>
+            <DialogHeader>
+              <DialogTitle>Confirmar Alterações</DialogTitle>
+            </DialogHeader>
+            <p className="text-muted-foreground">
+              Tem certeza que deseja salvar as alterações no evento "{editingEvent?.name}"?
+            </p>
+            <div className="flex justify-end gap-2 mt-4">
+              <Button variant="outline" onClick={() => setShowConfirmEdit(false)}>
+                Cancelar
+              </Button>
+              <Button onClick={handleConfirmEdit} className="gap-2">
+                <Check className="h-4 w-4" />
+                Confirmar
+              </Button>
+            </div>
+          </DialogContent>
+        </Dialog>
+
+        <Dialog open={showConfirmDelete} onOpenChange={setShowConfirmDelete}>
+          <DialogContent>
+            <DialogHeader>
+              <DialogTitle>Confirmar Exclusão</DialogTitle>
+              <DialogDescription>
+                Tem certeza que deseja excluir o evento "{deletingEvent?.name}"? Esta ação não pode ser desfeita.
+              </DialogDescription>
+            </DialogHeader>
+            <DialogFooter>
+              <Button variant="outline" onClick={() => setShowConfirmDelete(false)}>
+                Cancelar
+              </Button>
+              <Button variant="destructive" onClick={handleConfirmDelete}>
+                Excluir
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog> */}
+
+        {/* Enhanced Add Event Dialog for Month View */}
+        <Dialog open={showAddEvent} onOpenChange={setShowAddEvent}>
+          <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+            <DialogHeader>
+              <DialogTitle>Adicionar Novo Evento</DialogTitle>
+            </DialogHeader>
+            {/* Same enhanced form as in year view */}
+            <div className="grid grid-cols-2 gap-4">
+              {/* Same enhanced form fields */}
+              <div className="space-y-2">
+                <Label htmlFor="event-name">Nome do Evento</Label>
+                <Input
+                  id="event-name"
+                  value={newEvent.name || ""}
+                  onChange={(e) => setNewEvent({ ...newEvent, name: e.target.value })}
+                  placeholder="Ex: Reunião de Equipe"
+                />
+              </div>
               <div className="space-y-2">
                 <Label htmlFor="event-type">Tipo</Label>
                 <Select
