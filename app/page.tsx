@@ -410,7 +410,7 @@ export default function TeamCalendar() {
   const [showEditEvent, setShowEditEvent] = useState(false)
   // const [showConfirmEdit, setShowConfirmEdit] = useState(false)
   // const [showConfirmDelete, setShowConfirmDelete] = useState(false)
-  const [deletingEvent, setDeletingEvent] = useState<Event | null>(null)
+  // const [deletingEvent, setDeletingEvent] = useState<Event | null>(null)
   const [editingEvent, setEditingEvent] = useState<Event | null>(null)
   const [searchTerm, setSearchTerm] = useState("")
   const [filterType, setFilterType] = useState<string>("all")
@@ -550,6 +550,7 @@ export default function TeamCalendar() {
     setMonthsData(updatedMonthsData)
   }
 
+  // The delete confirmation dialog and related code has been removed to fix build errors
   // const handleConfirmDelete = () => {
   //   if (!deletingEvent || selectedMonth === null) return
 
